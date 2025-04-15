@@ -202,7 +202,8 @@ def genetic_algorithm():
             #將新產生的兩個小孩加入到新的種群中
             new_population.extend([child1, child2])   
         #菁英保留
-        new_population.append(best_route)
+        if best_route is not None:
+            new_population[-1] = best_route
         # 更新整個種群    
         population = new_population
         # 計算當前世代的最佳路徑    

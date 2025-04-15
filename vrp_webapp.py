@@ -92,7 +92,8 @@ if uploaded_file and st.button("開始運算 🚀"):
                 mutate(child2)
                 new_population.extend([child1, child2])
             #精英保留
-            new_population.append(best_route)
+            if best_route is not None:
+                new_population[-1] = best_route
             population = new_population
             current_best = min(population, key=total_distance)
             current_best_distance = total_distance(current_best)
