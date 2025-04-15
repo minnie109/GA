@@ -14,7 +14,7 @@ vehicle_capacity = st.number_input("🚗 車輛容量", min_value=1, value=10)
 num_generations = st.number_input("🔁 演化代數", min_value=1, value=100)
 population_size = st.number_input("👨‍👩‍👧‍👦 種群大小", min_value=2, value=30)
 mutation_rate = st.number_input("🧬 突變率", min_value=0.01,value=0.01,step=0.01)
-max_stagnant_generations = st.number_input("⏹️ 最多停滯代數（early stopping）", min_value=1, value=50)
+max_stagnant_generations = st.number_input("⏹️ 最多停滯代數", min_value=1, value=50)
 
 
 if uploaded_file and st.button("開始運算 🚀"):
