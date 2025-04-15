@@ -182,7 +182,7 @@ def genetic_algorithm():
     # 用來記錄目前的世代數
     stagnant_generations = 0
     # 用來記錄沒有改進的世代數
-    max_stagnant_generations = 10
+    max_stagnant_generations = 50
     #演算法會執行 num_generations 代，每一代都會產生一批新的解（也就是新的路線）。
     for generation in range(num_generations):
         # 每一代都會產生新的種群，這裡的 population_size 是指每一代的個體數量

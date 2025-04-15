@@ -81,7 +81,7 @@ if uploaded_file and st.button("開始運算 🚀"):
         best_route = None
         history = []
         stagnant_generations = 0
-        max_stagnant_generations = 20
+        max_stagnant_generations = 50
 
         for generation in range(num_generations):
             new_population = []
