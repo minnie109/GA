@@ -1,3 +1,4 @@
+UI介面 : https://jm6ndezenc94pmb7cpnv3v.streamlit.app/
 ![SA drawio (1)](https://github.com/user-attachments/assets/65068bd2-9404-4223-b90b-ca8b47ae2ec2)題目：
 基於基因演算法的單一車輛容量限制物流配送路徑最佳化
 ________________________________________
