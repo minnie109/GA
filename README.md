@@ -1,6 +1,6 @@
 連結:
 1. UI : https://jm6ndezenc94pmb7cpnv3v.streamlit.app/
-2. PPT : https://reurl.cc/5K4577
+2. PPT : [https://reurl.cc/5K4577](https://www.canva.com/design/DAGkrcD2bfc/K44RkZ_2-J7TpyAqPQFVNQ/edit)
 
 高等生產管理-期中報告<br>
 一、題目
